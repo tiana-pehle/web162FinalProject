@@ -1,0 +1,66 @@
+* {
+    padding:0;
+    margin:0;
+}
+body { 
+  background-image: url(../images/cupcake.jpeg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+/* Entire Nav Bar */
+nav {
+    background-color:pink;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+}
+nav li {
+    display:inline-block;
+    margin:20px 15px 0;
+    padding-bottom:6px;
+    position: relative;
+    width:150px;
+}
+nav a {
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding:6px;
+}
+nav a:hover {
+    color:mediumpurple;
+}
+/* 2nd tier menu items */
+nav ul ul {
+    position: absolute;
+    top:35px;
+    background-color:pink;
+    display: none;
+    text-align: center;
+}
+nav ul ul li {
+    display: block;
+    margin:0;
+    border-top:solid 1px pink;
+    position: relative;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+/* 3d tier menu items */
+nav ul ul ul {
+    position: absolute;
+    top:-1px;
+    left:150px;
+}
+/* END NAV BAR NO TOUCH */
