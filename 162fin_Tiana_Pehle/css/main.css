@@ -2,6 +2,8 @@
     padding:0;
     margin:0;
 }
+
+
 body { 
   background: url(../images/homepage.jpeg); 
 background-repeat: no-repeat;
@@ -13,6 +15,70 @@ background-position: center center;
 background-size: cover;
 padding-bottom: 0px;
 }
+
+body.cookies { 
+  background: url(../images/cookies.jpeg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+body.cupcakes { 
+  background: url(../images/cupcake.jpeg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+
+body.pie { 
+  background: url(../images/._pie.jpeg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+body.waffle { 
+  background: url(../images/waffles.jpeg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+body.brownies { 
+  background: url(../images/chocolate-dessert-brownies-cake-large.jpg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+padding-bottom: 0px;
+}
+
+
+
 
 /* Entire Nav Bar */
 nav {
