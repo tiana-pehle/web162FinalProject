@@ -4,7 +4,7 @@
 }
 
 
-body { 
+body.homePage { 
   background: url(../images/homepage.jpeg); 
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -215,5 +215,31 @@ p{
     width: 200px;
     height:200px;
 }
+
+#links a{
+    text-align: center;
+    list-style-type: none;
+    font-size: 12px;
+    font-style: italic;
+    color:#666;
+    width:280px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#links img{
+    width:260px;
+    padding:5px;
+    border: solid 1px #666;
+    margin: 5px 5px 0;
+    display: block;
+}
+
+.clearIt{
+    clear: both;
+}
+
+
+
 
 
